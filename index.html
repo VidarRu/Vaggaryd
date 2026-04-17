@@ -496,6 +496,17 @@
     text-transform: uppercase;
   }
 
+  /* ── SUMMARY ── */
+  .summary-section p {
+    font-size: 0.92rem;
+    line-height: 1.75;
+    color: var(--muted);
+    margin-bottom: 1.2rem;
+  }
+
+  .summary-section .resource-group p { margin-bottom: 1rem; }
+  .summary-section .resource-group p:last-child { margin-bottom: 0; }
+
   @media (max-width: 500px) {
     .tools-row { grid-template-columns: 1fr; }
     .ct-row { grid-template-columns: 4.5rem 1fr; }
@@ -539,6 +550,11 @@
         <span class="index-num">4.</span>
         <a href="#ws4">Bygg din egen notebook</a>
         <span class="index-desc">NotebookLM</span>
+      </li>
+      <li>
+        <span class="index-num">↓</span>
+        <a href="#sammanfattning">Sammanfattning av dagen</a>
+        <span class="index-desc">Vad vi gick igenom</span>
       </li>
       <li>
         <span class="index-num">↓</span>
@@ -816,6 +832,44 @@
         <li>Vad skulle du vilja testa härnäst – och vad känns fortfarande osäkert?</li>
       </ul>
     </div>
+    <a href="#top" class="back-top">↑ Tillbaka till toppen</a>
+  </section>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- SAMMANFATTNING                             -->
+  <!-- ══════════════════════════════════════════ -->
+  <hr class="rule">
+  <section id="sammanfattning">
+    <div class="stamp">Dagen i backspegeln</div>
+    <h1 class="section-title">Sammanfattning <em>av dagen</em></h1>
+    <p class="section-sub">AI i folkbibliotekets praktik – vad vi gick igenom</p>
+
+    <div class="summary-section">
+      <p>Vi utgick från er verklighet: ni får frågor, ska hänga med i omvärlden och hinna mycket på begränsad tid – och samtidigt behålla kvalitet, källkritik och bibliotekets trovärdighet.</p>
+
+      <div class="resource-group">
+        <h3>Så fungerar generativ AI</h3>
+        <p>En vanlig programvara som Word följer fasta regler: klickar du här händer detta. Generativ AI fungerar annorlunda – den skapar alltid nytt innehåll baserat på mönster den lärt sig av enorma mängder text. Tänk dig världens mest avancerade autocomplete: modellen gissar nästa ord utifrån sannolikhet, inte utifrån en faktisk förståelse av sanningen.</p>
+        <p>Det betyder att modellerna har tydliga svagheter. De är dåliga på att ge ärliga svar när de inte vet, de tenderar att producera mer text än nödvändigt, och de hallucinerar – fyller i luckor med något som låter rimligt men är fel. Hallucinationer är inte ett tillfälligt fel som kommer att rättas till, utan en direkt följd av hur tekniken fungerar. Samtidigt är det samma egenskap som gör modellerna så användbara: förmågan att pussla ihop information och skapa sammanhängande svar utifrån en given kontext.</p>
+      </div>
+
+      <div class="resource-group">
+        <h3>Informationssökning med AI</h3>
+        <p>Ungefär 70 procent av alla svenskar använder redan AI-assisterad informationssökning – ofta utan att tänka på det. Samtidigt visar studier att de här tjänsterna kan ge felaktig information i överraskande hög utsträckning. Frågan är inte om ni ska använda AI för informationssökning, utan när och hur.</p>
+        <p>Vi gick igenom varför Perplexity sticker ut: det är ett verktyg byggt på RAG, vilket betyder att det hämtar information från källor innan det svarar, och alltid visar varifrån svaret kommer. Det gör det lättare att granska och värdera informationen – men det ersätter inte ert professionella omdöme.</p>
+        <p>Som stöd för beslutet om när AI-sökning är lämplig gick vi igenom den pragmatiska beslutsmodellen, och vi samlade också sju konkreta tips för effektiv AI-sökning: formulera tydliga frågor, ge kontext och kriterier, utnyttja följdfrågor, prompta neutralt, be AI granska sina egna källor, kombinera AI-sökning med traditionell sökning – och utmana aktivt din egen informationsbubbla.</p>
+        <p>Vi demonstrerade också Copilot och hur det kan användas som ett integrerat sök- och skrivstöd i Microsofts miljö.</p>
+      </div>
+
+      <div class="resource-group">
+        <h3>Informationshantering med AI</h3>
+        <p>NotebookLM är Googles verktyg för att samtala med egna dokument. Du laddar upp material och kan sedan ställa frågor direkt till det – utan att behöva leta i pärmar eller på intranätet. Vi gick igenom konkreta användningsområden: en rutinbot med era vanligaste rutindokument, ett arkiv av mötesprotokoll du kan söka i, samlingar av systemmanualer, och automatisk transkribering av möten och föreläsningar.</p>
+        <p>En viktig del av det här momentet handlade om vad du faktiskt bör ladda upp. Osäkra eller dåligt formulerade AI-policyer skapar ofta två extremer: antingen ignorerar man alla riktlinjer, eller så använder man ingenting alls. Vi gick igenom några grundläggande tumregler: ladda inte upp material med personuppgifter eller sådant som omfattas av GDPR, och var försiktig med information som kan klassas som känslig. Det är inte alltid uppenbart var gränsen går – och det är en del av poängen.</p>
+        <p>Vi tog också upp något som är särskilt relevant för er som offentliganställda: allt ni skriver i tjänsten kan begäras ut som offentlig handling. Och det som hamnar som offentlig handling på nätet riskerar förr eller senare att bli en del av framtida träningsdata för AI-modeller – oavsett om ni laddar upp det direkt eller inte.</p>
+        <p>Som ett konkret ramverk för att bedöma vad som är lämpligt att dela gick vi igenom MSB:s fyra klassificeringsnivåer, från försumbar risk till allvarlig.</p>
+      </div>
+    </div>
+
     <a href="#top" class="back-top">↑ Tillbaka till toppen</a>
   </section>
 
