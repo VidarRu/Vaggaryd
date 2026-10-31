@@ -1,6 +1,6 @@
 /* AI i praktiken, Värnamo & Vaggeryd – interaktion
-   Startsidan med lösenord, utfällning, scrollanimationer och bockar för
-   workshopövningarna med framstegsmätare och medalj.
+   Startsidan med lösenord, utfällning, scrollanimationer, videospelare
+   och bockar för workshopövningarna med framstegsmätare och medalj.
    Lösenordet är en enkel spärr för besökare – inget riktigt skydd, eftersom
    sidan och materialet ligger öppet på GitHub. */
 (function () {
@@ -178,6 +178,21 @@
       shelf.style.perspectiveOrigin = (50 + x * 40) + '% 40%';
     });
   }
+
+  /* ── YouTube: laddas först när man klickar ─────────────────────── */
+  document.querySelectorAll('.video[data-yt]').forEach(function (v) {
+    var btn = v.querySelector('button');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      var id = v.getAttribute('data-yt');
+      var f = document.createElement('iframe');
+      f.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&rel=0';
+      f.title = btn.getAttribute('aria-label') || 'Video';
+      f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+      f.allowFullscreen = true;
+      v.replaceChild(f, btn);
+    });
+  });
 
   /* ── Uppgifter: bocka av, se framstegen och få en medalj ───────── */
   /* Workshopövningarna har data-task. Bockarna sparas bara i den här

@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=1">
+<link rel="stylesheet" href="assets/css/style.css?v=2">
 <link rel="preload" as="image" href="assets/img/bokhylla.jpg">
 </head>
 <body>
@@ -88,6 +88,8 @@
       <a href="#ws2">Workshop 2</a>
       <a href="#ws3">Workshop 3</a>
       <a href="#ws4">Workshop 4</a>
+      <a href="#sammanfattning">Sammanfattning</a>
+      <a href="#kallkritik">Källkritik</a>
       <a href="#resurser">Resurser</a>
     </nav>
     <div class="nav-progress" title="Andel genomförda workshopövningar">
@@ -165,6 +167,8 @@
     <a href="#ws2" data-part="ws2"><span class="toc-num">Workshop 2</span><span class="toc-title">Hallucinations&shy;testet</span><span class="toc-desc">Perplexity vs Google</span></a>
     <a href="#ws3" data-part="ws3"><span class="toc-num">Workshop 3</span><span class="toc-title">Klassificering av textrisk</span><span class="toc-desc">MSB · GDPR</span></a>
     <a href="#ws4" data-part="ws4"><span class="toc-num">Workshop 4</span><span class="toc-title">Bygg din egen notebook</span><span class="toc-desc">NotebookLM</span></a>
+    <a href="#sammanfattning" data-part="sum"><span class="toc-num">Sammanfattning</span><span class="toc-title">Dagen i backspegeln</span><span class="toc-desc">Vad vi gick igenom</span></a>
+    <a href="#kallkritik" data-part="kk"><span class="toc-num">Inspelad genomgång</span><span class="toc-title">AI och källkritik</span><span class="toc-desc">Det vi inte hann med på plats</span></a>
     <a href="#resurser" data-part="res"><span class="toc-num">Resurser</span><span class="toc-title">Att ta med hem</span><span class="toc-desc">Artiklar · prompter · verktyg</span></a>
   </nav>
 </section>
@@ -501,6 +505,116 @@
   </div>
 </section>
 
+<!-- ═══════════════ SAMMANFATTNING ═══════════════ -->
+<section class="part" id="sammanfattning" data-part="sum" aria-labelledby="sum-titel">
+  <div class="part-band shelf-bg">
+    <header class="part-head frost">
+      <div>
+        <span class="pill">Dagen i backspegeln</span>
+        <h2 class="part-title" id="sum-titel">Sammanfattning <em>av dagen</em></h2>
+        <p class="part-ingress">AI i folkbibliotekets praktik – vad vi gick igenom</p>
+      </div>
+      <div class="part-num" aria-hidden="true">05</div>
+    </header>
+  </div>
+  <div class="part-body">
+
+    <div class="block">
+      <div class="block-rail"><div class="block-rail-inner" data-reveal="left">
+        <div class="block-kicker">Utgångspunkt</div>
+        <h3 class="block-title">Er verklighet</h3>
+      </div></div>
+      <div class="block-body">
+        <p class="prose" data-reveal="up">Vi utgick från er verklighet: ni får frågor, ska hänga med i omvärlden och hinna mycket på begränsad tid – och samtidigt behålla kvalitet, källkritik och bibliotekets trovärdighet.</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-rail"><div class="block-rail-inner" data-reveal="left">
+        <div class="block-kicker">Teori</div>
+        <h3 class="block-title">Så fungerar generativ AI</h3>
+      </div></div>
+      <div class="block-body">
+        <div class="prose" data-reveal="up">
+          <p>En vanlig programvara som Word följer fasta regler: klickar du här händer detta. Generativ AI fungerar annorlunda – den skapar alltid nytt innehåll baserat på mönster den lärt sig av enorma mängder text. Tänk dig världens mest avancerade autocomplete: modellen gissar nästa ord utifrån sannolikhet, inte utifrån en faktisk förståelse av sanningen.</p>
+          <p>Det betyder att modellerna har tydliga svagheter. De är dåliga på att ge ärliga svar när de inte vet, de tenderar att producera mer text än nödvändigt, och de hallucinerar – fyller i luckor med något som låter rimligt men är fel. Hallucinationer är inte ett tillfälligt fel som kommer att rättas till, utan en direkt följd av hur tekniken fungerar. Samtidigt är det samma egenskap som gör modellerna så användbara: förmågan att pussla ihop information och skapa sammanhängande svar utifrån en given kontext.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-rail"><div class="block-rail-inner" data-reveal="left">
+        <div class="block-kicker">Informationssökning</div>
+        <h3 class="block-title">Informations&shy;sökning med AI</h3>
+      </div></div>
+      <div class="block-body">
+        <div class="prose" data-reveal="up">
+          <p>Ungefär 70 procent av alla svenskar använder redan AI-assisterad informationssökning – ofta utan att tänka på det. Samtidigt visar studier att de här tjänsterna kan ge felaktig information i överraskande hög utsträckning. Frågan är inte om ni ska använda AI för informationssökning, utan när och hur.</p>
+          <p>Vi gick igenom varför Perplexity sticker ut: det är ett verktyg byggt på RAG, vilket betyder att det hämtar information från källor innan det svarar, och alltid visar varifrån svaret kommer. Det gör det lättare att granska och värdera informationen – men det ersätter inte ert professionella omdöme.</p>
+          <p>Som stöd för beslutet om när AI-sökning är lämplig gick vi igenom den pragmatiska beslutsmodellen, och vi samlade också sju konkreta tips för effektiv AI-sökning: formulera tydliga frågor, ge kontext och kriterier, utnyttja följdfrågor, prompta neutralt, be AI granska sina egna källor, kombinera AI-sökning med traditionell sökning – och utmana aktivt din egen informationsbubbla.</p>
+          <p>Vi demonstrerade också Copilot och hur det kan användas som ett integrerat sök- och skrivstöd i Microsofts miljö.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-rail"><div class="block-rail-inner" data-reveal="left">
+        <div class="block-kicker">Informationshantering</div>
+        <h3 class="block-title">Informations&shy;hantering med AI</h3>
+      </div></div>
+      <div class="block-body">
+        <div class="prose" data-reveal="up">
+          <p>NotebookLM är Googles verktyg för att samtala med egna dokument. Du laddar upp material och kan sedan ställa frågor direkt till det – utan att behöva leta i pärmar eller på intranätet. Vi gick igenom konkreta användningsområden: en rutinbot med era vanligaste rutindokument, ett arkiv av mötesprotokoll du kan söka i, samlingar av systemmanualer, och automatisk transkribering av möten och föreläsningar.</p>
+          <p>En viktig del av det här momentet handlade om vad du faktiskt bör ladda upp. Osäkra eller dåligt formulerade AI-policyer skapar ofta två extremer: antingen ignorerar man alla riktlinjer, eller så använder man ingenting alls. Vi gick igenom några grundläggande tumregler: ladda inte upp material med personuppgifter eller sådant som omfattas av GDPR, och var försiktig med information som kan klassas som känslig. Det är inte alltid uppenbart var gränsen går – och det är en del av poängen.</p>
+          <p>Vi tog också upp något som är särskilt relevant för er som offentliganställda: allt ni skriver i tjänsten kan begäras ut som offentlig handling. Och det som hamnar som offentlig handling på nätet riskerar förr eller senare att bli en del av framtida träningsdata för AI-modeller – oavsett om ni laddar upp det direkt eller inte.</p>
+          <p>Som ett konkret ramverk för att bedöma vad som är lämpligt att dela gick vi igenom MSB:s fyra klassificeringsnivåer, från <a href="#ws3">försumbar risk till allvarlig</a>.</p>
+        </div>
+        <div class="btn-row" data-reveal="up"><a class="btn primary" href="material/presentation-vaggeryd-varnamo.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>Ladda ned presentationen från dagen (PDF)</a></div>
+      </div>
+    </div>
+
+    <div class="part-foot"><a class="to-top" href="#top">↑ Tillbaka till toppen</a></div>
+  </div>
+</section>
+
+<!-- ═══════════════ AI OCH KÄLLKRITIK ═══════════════ -->
+<section class="part" id="kallkritik" data-part="kk" aria-labelledby="kk-titel">
+  <div class="part-band shelf-bg">
+    <header class="part-head frost">
+      <div>
+        <span class="pill">Inspelad genomgång</span>
+        <h2 class="part-title" id="kk-titel">AI och <em>källkritik</em></h2>
+        <p class="part-ingress">Den del av utbildningen vi inte hann med på plats</p>
+      </div>
+      <div class="part-num" aria-hidden="true">06</div>
+    </header>
+  </div>
+  <div class="part-body">
+
+    <div class="block">
+      <div class="block-rail"><div class="block-rail-inner" data-reveal="left">
+        <div class="block-kicker">Inspelning</div>
+        <h3 class="block-title">Titta i din egen takt</h3>
+        <p>Den här genomgången täcker det avsnitt om AI och källkritik som vi inte hann med under utbildningsdagen. Titta igenom det i din egen takt – det knyter direkt an till det vi pratade om kring informationssökning och Perplexity.</p>
+      </div></div>
+      <div class="block-body">
+        <div class="material stagger">
+          <div class="mat-card">
+            <div class="video" data-yt="y6VT7TPeAU8">
+              <button type="button" aria-label="Spela upp genomgången AI och källkritik"><img src="https://i.ytimg.com/vi/y6VT7TPeAU8/hqdefault.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span></button>
+            </div>
+            <div class="mat-body">
+              <div><div class="mat-kind">Inspelning</div><div class="mat-title">AI och källkritik</div><div class="mat-meta">Video · <a href="https://youtu.be/y6VT7TPeAU8" target="_blank" rel="noopener">öppna på YouTube</a></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="part-foot"><a class="to-top" href="#top">↑ Tillbaka till toppen</a></div>
+  </div>
+</section>
+
 <!-- ═══════════════ RESURSER ═══════════════ -->
 <section class="part" id="resurser" data-part="res" aria-labelledby="res-titel">
   <div class="part-band shelf-bg">
@@ -594,6 +708,8 @@
         <li><a href="#ws2">Workshop 2</a></li>
         <li><a href="#ws3">Workshop 3</a></li>
         <li><a href="#ws4">Workshop 4</a></li>
+        <li><a href="#sammanfattning">Sammanfattning</a></li>
+        <li><a href="#kallkritik">AI och källkritik</a></li>
         <li><a href="#resurser">Resurser</a></li>
       </ul>
     </div>
@@ -624,6 +740,6 @@
   </div>
 </dialog>
 
-<script src="assets/js/main.js?v=1"></script>
+<script src="assets/js/main.js?v=2"></script>
 </body>
 </html>
