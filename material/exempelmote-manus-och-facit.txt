@@ -1,0 +1,73 @@
+﻿EXEMPELMÖTE: PLANERING AV HÖSTLOVSAKTIVITETER PÅ BIBLIOTEKET
+==============================================================
+
+Manus och facit till exempelljudfilen i workshop 4.
+Ljudfilen är cirka 5 minuter lång.
+
+Talare:
+  Karin – enhetschef, leder mötet
+  Johan – bibliotekarie, barn och unga
+  Maria – IT-bibliotekarie
+  Ahmed – programansvarig
+
+
+MANUS
+-----
+
+KARIN: Hej allihop och välkomna till dagens möte. Vi är här fyra stycken: jag, Karin, och så Johan, Maria och Ahmed. Dagens ämne är höstlovsaktiviteterna. Vi behöver bestämma tre saker: vilka aktiviteter vi ska erbjuda, vem som gör vad, och hur vi marknadsför det. Vi har ungefär fem minuter på oss, så vi försöker hålla tempot uppe. Johan, vill du börja?
+
+JOHAN: Gärna. Jag har tittat på hur det såg ut förra året. Då hade vi sagobokstimmen och en pysselverkstad, och båda var välbesökta. Sagostunden hade i snitt tjugotvå barn per tillfälle, och pysselverkstaden var fullbokad alla tre dagarna. Mitt förslag är att vi behåller de två och lägger till något nytt, till exempel en kodverkstad för barn mellan nio och tolv år.
+
+KARIN: Det låter bra. Ahmed, du har ju hand om programmet. Hur ser du på kodverkstaden?
+
+AHMED: Jag gillar idén, men vi måste tänka på lokalen. Kodverkstaden kräver datorer, och Lilla salen rymmer bara tolv personer med dator. Då blir det max tolv deltagare per tillfälle. Jag föreslår två pass, ett på tisdagen och ett på torsdagen, så att fler får chansen. Pysselverkstaden kan ligga på onsdagen och sagostunden på fredagen.
+
+MARIA: Där kan jag hjälpa till. Vi har tio bärbara datorer på biblioteket, och jag kan låna två till från kommunens IT-avdelning. Då klarar vi tolv. Jag kan också lägga upp en enkel nybörjarkurs i Scratch, så att barnen inte behöver kunna något i förväg. Men jag behöver veta senast den femtonde oktober om det blir av, så att jag hinner förbereda och installera programmen.
+
+KARIN: Bra, då skriver vi det. Beslut ett: höstlovsprogrammet blir kodverkstad på tisdag och torsdag, pysselverkstad på onsdag och sagostund på fredag. Maria ansvarar för kodverkstaden och för att låna datorerna. Johan, kan du ta pysslet och sagostunden som förra året?
+
+JOHAN: Ja, det klarar jag. Jag behöver bara en extra person under pysselverkstaden, för vi var för få förra året. Kan vi låna någon från utlåningsdisken, till exempel Sara?
+
+KARIN: Jag pratar med Sara i morgon och återkommer till dig. Då skriver jag upp det som en åtgärd för mig. Då är vi framme vid marknadsföringen. Ahmed?
+
+AHMED: Jag föreslår tre kanaler. Först bibliotekets webbplats och sociala medier, där jag lägger ut programmet senast den tjugonde oktober. Sedan affischer, som vi sätter upp i biblioteket och på de tre närmaste skolorna. Och till sist ett utskick via skolornas informationskanaler. Där behöver jag hjälp med texten.
+
+JOHAN: Jag kan skriva en kort text på svenska och lätt svenska. Jag skickar den till dig på fredag.
+
+MARIA: Kan vi också lägga in en anmälningslänk? Det blir mycket enklare att hålla koll på platserna, särskilt till kodverkstaden, där det är tolv platser per tillfälle.
+
+AHMED: Absolut. Jag sätter upp ett enkelt anmälningsformulär och lägger länken i all marknadsföring. Anmälan öppnar den tjugonde oktober, samma dag som programmet publiceras.
+
+KARIN: Perfekt. Då sammanfattar jag besluten. Ett: programmet är kodverkstad tisdag och torsdag, pysselverkstad onsdag, sagostund fredag. Två: Maria ansvarar för kodverkstaden och datorerna och behöver besked senast den femtonde oktober. Tre: Johan ansvarar för pyssel och sagostund och skriver marknadsföringstexten till fredag. Fyra: Ahmed ansvarar för affischer, webb, utskick och anmälningsformuläret, och publicerar den tjugonde oktober. Fem: jag pratar med Sara om att hjälpa till under pysselverkstaden. Är det något jag har missat?
+
+MARIA: Nej, det stämmer. Jag bekräftar att kodverkstaden är på, så att du slipper vänta till den femtonde.
+
+AHMED: Det stämmer för mig också.
+
+JOHAN: Allt klart från mig.
+
+KARIN: Tack alla, det gick snabbt och bra. Vi ses igen om två veckor för att stämma av hur det går. Hej då!
+
+
+FACIT
+-----
+
+Så här bör ett bra protokoll se ut. Jämför med det protokoll du fick fram
+och se om verktyget fångade det viktiga.
+
+Beslut
+  - Program: kodverkstad (tisdag och torsdag), pysselverkstad (onsdag),
+    sagostund (fredag)
+  - Kodverkstad: max 12 deltagare per tillfälle
+  - Marknadsföring via webb, sociala medier, affischer och skolutskick
+  - Anmälan via formulär, öppnar 20 oktober
+
+Åtgärder
+  - Maria: kodverkstad och datorer, besked senast 15 oktober
+  - Johan: pyssel och sagostund, marknadsföringstext till fredag
+  - Ahmed: affischer, webb, utskick, anmälningsformulär,
+    publicering 20 oktober
+  - Karin: prata med Sara om hjälp under pysselverkstaden
+
+Uppföljning
+  - Nytt möte om två veckor
