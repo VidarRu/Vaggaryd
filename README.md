@@ -8,6 +8,6 @@ bockar och framstegsmätare, presentationen att ladda ner och resurser att ta me
 - `index.html` – sidan
 - `assets/css/style.css`, `assets/js/main.js` – stil och interaktion
 - `assets/img/` – bakgrundsbild och omslag (tagna ur presentationen)
-- `material/` – presentationen som PDF, exempelljudfilen till workshop 4 med manus och facit
+- `material/` – presentationen som PDF, affischerna om AI-sökning och den pragmatiska beslutsmodellen (CC BY 4.0), exempelljudfilen till workshop 4 med manus och facit
 
 Lösenordet är bara en enkel spärr för besökare. Sidan och materialet ligger öppet här på GitHub.

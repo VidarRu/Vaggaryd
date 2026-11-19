@@ -428,6 +428,8 @@ main { display: block; overflow-x: clip; }
 .mat-card { position: relative; display: flex; flex-direction: column; border-radius: var(--radius-lg); overflow: hidden; background: var(--surface); box-shadow: var(--shadow-md); color: inherit; text-decoration: none; transition: box-shadow .4s, transform .5s var(--ease); }
 a.mat-card:hover { box-shadow: var(--shadow-lift); transform: translateY(-3px); }
 .mat-media { position: relative; aspect-ratio: 16 / 9; background: #1a2620; overflow: hidden; }
+.mat-media.poster { aspect-ratio: 3 / 4; }
+.mat-media.poster img { object-position: top; }
 .mat-media img { width: 100%; height: 100%; object-fit: cover; transition: transform .8s var(--ease); }
 a.mat-card:hover .mat-media img { transform: scale(1.04); }
 .mat-body { padding: 1rem 1.25rem 1.15rem; display: flex; align-items: center; gap: 1rem; }
