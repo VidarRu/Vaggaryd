@@ -669,3 +669,16 @@ dialog.medal-dialog[open] .medal-art { animation: medal-drop 1.3s var(--ease) bo
   .js .acc > .acc-panel { grid-template-rows: 1fr !important; }
   .js .acc .acc-content, .js [data-reveal], .js .stagger > *, .js .part-head, .js .part-title .w { opacity: 1 !important; transform: none !important; }
 }
+
+/* Bred materialkort: bild till vänster, text till höger (staplas på smal skärm) */
+.mat-card.wide { flex-direction: row; align-items: stretch; }
+.mat-card.wide .mat-media { flex: 0 0 58%; aspect-ratio: 16 / 9; }
+.mat-card.wide .mat-body { flex: 1; flex-direction: column; align-items: flex-start; justify-content: space-between; padding: clamp(1.1rem, 2.4vw, 1.75rem); }
+.mat-card.wide .mat-title { font-size: clamp(1.3rem, 2.2vw, 1.7rem); margin: .2rem 0 .35rem; }
+.mat-card.wide .mat-go { margin-left: 0; margin-top: 1rem; }
+@media (max-width: 720px) {
+  .mat-card.wide { flex-direction: column; }
+  .mat-card.wide .mat-media { flex: none; }
+  .mat-card.wide .mat-body { flex-direction: row; align-items: center; }
+  .mat-card.wide .mat-go { margin: 0 0 0 auto; }
+}
